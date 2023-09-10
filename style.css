@@ -1,0 +1,45 @@
+/* CSS Specificity Rules
+Inline Style - 1,0,0,0 (one of the three css styles (inline, external,))
+ID Selector - 1,0,0
+Class Selector - 0,1,0
+Type Selector - 0,0,1
+
+if there are 4 class selectors, you'd have a specifity of 0,4,0. this applies to prioritization of selectors.*/
+
+.listButton {
+    margin: 5px;
+    display: block;
+    border: 2px solid red;
+    background-color: grey;
+    width: 200px;
+}
+
+.recipe-card {
+    width: 400px;
+    background: #33ff4e;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+/* box rotation clockwise: top, right, bottom, left */
+
+img {
+    margin: 0 auto;
+    padding: 0px 15px 0px;
+    
+}
+
+p {
+    font-family: Courier;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: Courier;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+    color: black;
+}
